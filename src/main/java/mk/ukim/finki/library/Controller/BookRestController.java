@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 @RequestMapping("/api")
 public class BookRestController {
 
